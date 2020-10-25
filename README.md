@@ -1,3 +1,13 @@
 # CourseProject
 
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
+The project for Text Classification Competition from the team "The West Coasters":
+
+Tirthankar		Bhakta	tbhakta2@illinois.edu
+Marina		Polupanova	marinap2@illinois.edu
+Savita		Manghnani	savitam2@illinois.edu
+
+We plan to classify tweets to predict the ones which can be qualified as sarcasm using following methods:
+    • Random Forest
+    • Logistic Regression
+    • Support Vector Machine
+    • Recurrent Neural Network
