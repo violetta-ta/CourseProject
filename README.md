@@ -2,7 +2,7 @@
 
 The project for Text Classification Competition from the team "The West Coasters":
 
-Tirthankar		Bhakta	tbhakta2@illinois.edu
+Tirthankar	Bhakta		tbhakta2@illinois.edu
 Marina		Polupanova	marinap2@illinois.edu
 Savita		Manghnani	savitam2@illinois.edu
 
