@@ -6,7 +6,7 @@ import sklearn.model_selection as sk
 import tensorflow_hub as hub
 import os
 
-tf.get_logger().setLevel('ERROR')
+tf.get_logger().setLevel('INFO')
 
 
 def read_input_file(file_path, training=True):
@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
     print("Creating text columns")
     # Feeding text as columns - https://medium.com/engineering-zemoso/text-classification-bert-vs-dnn-b226497c9de7
-    os.environ['TFHUB_CACHE_DIR'] = '/Users/manghs/cs410/tf_cache'
+    os.environ['TFHUB_CACHE_DIR'] = 'tf_cache/'
     TFHUB_URL = "https://tfhub.dev/google/universal-sentence-encoder/2"
     embedded_text_response_column = hub.text_embedding_column(key="response", module_spec=TFHUB_URL)
     embedded_text_context_column = hub.text_embedding_column(key="context", module_spec=TFHUB_URL)
@@ -80,7 +80,7 @@ if __name__ == '__main__':
         optimizer="SGD",
         activation_fn=tf.nn.crelu)
     print("Created classifier, starting training")
-    classifier.train(input_fn=lambda: input_fn(df, training_label_series, training=True), steps=100)
+    classifier.train(input_fn=lambda: input_fn(df, training_label_series, training=True), steps=5000)
     print("Trained classifier, initiating evaluation")
     result = classifier.evaluate(input_fn=lambda: input_fn(eval_df, eval_label_series, training=False))
     print("Evaluated classifier, printing results")
