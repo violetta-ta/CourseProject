@@ -13,6 +13,7 @@ We planed to classify tweets to predict the ones which can be qualified as sarca
     • Recurrent Neural Network <br />
 
 Instead, after feedback on the Project Proposal submission, we used following methods:
+
     • LSTM <br />
     • DNN Classifier (hit the LiveDataLab threshold) <br />
     • Multi-channel CNN model <br />
