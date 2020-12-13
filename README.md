@@ -24,4 +24,6 @@ Instead, after feedback on the Project Proposal submission, we used following me
 ### Project Documentation file: Documentation/ProjectDocumentation.pdf <br />
 ### Installation instructions: Documentation/Installation_and_execution_instructions.txt <br />
 
+The account on the LiveDataLab for submitting the "answers.txt" was "marina_polupanova". 
+
 
