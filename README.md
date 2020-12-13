@@ -14,10 +14,10 @@ We planed to classify tweets to predict the ones which can be qualified as sarca
 
 Instead, after feedback on the Project Proposal submission, we used following methods:
 
-    • LSTM <br />
-    • DNN Classifier (hit the LiveDataLab threshold) <br />
-    • Multi-channel CNN model <br />
-    • BERT <br />
+    • LSTM 
+    • DNN Classifier (hit the LiveDataLab threshold)
+    • Multi-channel CNN model
+    • BERT
 
 
 ### Project Tutorial: https://mediaspace.illinois.edu/media/1_uscvryhp <br />
