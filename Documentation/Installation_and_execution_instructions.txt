@@ -1,0 +1,27 @@
+Installation guidelines:
+
+To install and execute the code, you will need to ensure following Python libraries and packages installed:
+
+- Python 3.8
+- tensorflow 2.3.1
+- tensorflow-hub 0.10.0
+- scikit-learn 0.23.2
+- pandas 1.1.4
+- numpy 1.18.5,
+if pandas is downloaded before this numpy will be downloaded already
+
+Running the code:
+
+Execute the python script as: “python dnn.py”, or run file "dnn.py" in your IDE.
+
+
+Disclaimer
+The machine on which the code was built:
+MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)
+Processor 2.8 GHz Intel Core i7
+Memory 16 GB 2133 MHz LPDDR3
+Graphics Intel Iris Plus Graphics 655 1536 MB
+
+It is tested that the code will not run on Python 3.5 (so please consider upgrading the version if needed,
+and diagnostic messages will differ depending on the OS, CPU and
+graphic card on your PC. On some versions of those the code will not be able to run.
