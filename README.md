@@ -15,7 +15,10 @@ We planed to classify tweets to predict the ones which can be qualified as sarca
 Instead, after feedback on the Project Proposal submission, we used following methods:
 
     • LSTM 
-    • DNN Classifier with DAN sentence encoder  (hit the LiveDataLab threshold). Please note, that in the demo video we have told that we use Transformer sentence encoder, but in fact the one which hit the performance baseline was DAN sentence encoder, and it is posted in the dnn.py file. 
+    • DNN Classifier with DAN sentence encoder  (hit the LiveDataLab threshold). 
+    Please note, that in the demo video we have told that we use Transformer sentence encoder, 
+    but in fact the one which hit the performance baseline was DAN sentence encoder, 
+    and it is posted in the dnn.py file. 
     • Multi-channel CNN model
     • BERT
 
